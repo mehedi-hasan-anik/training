@@ -1,0 +1,13 @@
+#contact-us {
+  margin-top: 140px;
+}
+#contact-us .container-fluid .col-lg-6 {
+  padding: 0px;
+}
+#contact-us .contact-form {
+  padding: 80px;
+  background-image: url(../image/contact-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
