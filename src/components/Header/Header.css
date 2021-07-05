@@ -1,4 +1,4 @@
-.header-area.header-sticky {
+.header-area {
   min-height: 80px;
 }
 .header-area {
@@ -14,9 +14,10 @@
   -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
 }
-.header-area .main-nav {
+.navbar {
   min-height: 80px;
   background: transparent;
+  padding: 0px !important;
 }
 header,
 nav,
@@ -27,10 +28,10 @@ footer,
 hgroup {
   display: block;
 }
-.header-area .main-nav .logo {
+.navbar-brand {
   line-height: 80px;
   color: #fff;
-  font-size: 32px;
+  font-size: 30px !important;
   font-weight: 800;
   text-transform: uppercase;
   float: left;
@@ -39,30 +40,23 @@ hgroup {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   text-decoration: none;
+  display: block;
+  padding-top: 0px !important;
 }
-.header-area .main-nav .logo em {
+.navbar-brand em {
   font-style: normal;
   color: #ed563b;
   font-weight: 900;
 }
-.header-area.header-sticky .nav {
-  margin-top: 20px !important;
+.navbar-nav li {
+  padding-left: 7px;
+  padding-right: 7px;
 }
-.header-area .main-nav .nav {
-  float: right;
-  margin-top: 27px;
-  margin-right: 0px;
-  background-color: transparent;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  position: relative;
-  z-index: 999;
-}
-.header-area .main-nav .nav li {
-  padding-left: 20px;
-  padding-right: 20px;
+.navbar-nav li a {
+  color: white;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
 }
 ul,
 li {
@@ -70,7 +64,7 @@ li {
   margin: 0;
   list-style: none;
 }
-.header-area .main-nav .nav li:hover a {
+.navbar-nav li:hover a {
   color: #ed563b;
   opacity: 1;
 }
@@ -78,10 +72,10 @@ li {
   color: #fff;
   text-decoration: none;
 }
-.header-area .main-nav .nav li:last-child a {
+.navbar-nav li:last-child a {
   display: inline-block;
   font-size: 13px;
-  padding: 11px 17px;
+  padding: 11px 30px !important;
   background-color: #ed563b;
   color: #fff;
   text-align: center;
@@ -92,38 +86,20 @@ li {
   height: auto;
   line-height: 20px;
 }
-.main-button:hover {
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
   color: white;
 }
-.header-area .main-nav .menu-trigger {
-  cursor: pointer;
-  display: block;
-  position: absolute;
-  top: 23px;
-  width: 32px;
-  height: 40px;
-  text-indent: -9999em;
-  z-index: 99;
-  right: 40px;
-  display: none;
-}
-.header-area .main-nav .menu-trigger span {
-  top: 16px;
-}
-.header-area .main-nav .nav li a {
-  display: block;
-  font-weight: 500;
-  font-size: 13px;
-  text-transform: uppercase;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  height: 40px;
-  line-height: 40px;
-  border: transparent;
-  letter-spacing: 1px;
-}
-.main-button:hover {
-  color: white !important;
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 0.25rem;
+  transition: box-shadow 0.15s ease-in-out;
 }
