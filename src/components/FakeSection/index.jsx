@@ -3,7 +3,6 @@ import "./FakeSection.css";
 
 function FakeSection() {
   const [fakeData, setFakeData] = useState([]);
-  console.log(fakeData);
   useEffect(() => {
     fetch(`https://fakestoreapi.com/products`)
       .then((res) => res.json())

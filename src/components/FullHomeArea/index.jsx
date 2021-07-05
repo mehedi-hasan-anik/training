@@ -8,6 +8,7 @@ import Classes from "../Classes";
 import FakeSection from "../FakeSection";
 import Trainers from "../Trainers";
 import Contact from "../Contact";
+import Footer from "../Footer";
 
 function index() {
   return (
@@ -20,6 +21,7 @@ function index() {
       <FakeSection />
       <Trainers />
       <Contact />
+      <Footer />
     </div>
   );
 }
