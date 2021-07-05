@@ -9,11 +9,11 @@ import thirdTrainer from "../image/third-trainer.jpg";
 
 function Trainers() {
   return (
-    <div class="section" id="trainers">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 offset-lg-3">
-            <div class="section-heading">
+    <div className="section" id="trainers">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-6 offset-lg-3">
+            <div className="section-heading">
               <CommonHeader
                 title1="Expert"
                 title2="Trainers"
@@ -23,8 +23,8 @@ function Trainers() {
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-4">
+        <div className="row">
+          <div className="col-lg-4">
             <TrainerCol
               image={firstTrainer}
               title="Bret D. Bowers"
@@ -32,7 +32,7 @@ function Trainers() {
               details="Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel."
             />
           </div>
-          <div class="col-lg-4">
+          <div className="col-lg-4">
             <TrainerCol
               image={secondTrainer}
               title="Hector T. Daigl"
@@ -40,7 +40,7 @@ function Trainers() {
               details="Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel."
             />
           </div>
-          <div class="col-lg-4">
+          <div className="col-lg-4">
             <TrainerCol
               image={thirdTrainer}
               title="Paul D. Newman"

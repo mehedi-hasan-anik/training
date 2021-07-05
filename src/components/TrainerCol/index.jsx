@@ -4,11 +4,11 @@ import SocialIcon from "../SocialIcon";
 
 function TrainerCol({ image, subTitle, title, details }) {
   return (
-    <div class="trainer-item">
-      <div class="image-thumb">
+    <div className="trainer-item">
+      <div className="image-thumb">
         <img src={image} alt="" />
       </div>
-      <div class="down-content">
+      <div className="down-content">
         <span>Strength Trainer</span>
         <h4>Bret D. Bowers</h4>
         <p>

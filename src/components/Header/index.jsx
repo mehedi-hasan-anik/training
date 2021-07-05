@@ -3,11 +3,11 @@ import "./Header.css";
 
 function Header() {
   return (
-    <header className="header-area header-sticky">
+    <div className="header-area header-sticky">
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <nav className="main-nav">
+            <nav className="main-nav ">
               <a href="index.html" className="logo">
                 Training<em> Studio</em>
               </a>
@@ -40,7 +40,7 @@ function Header() {
           </div>
         </div>
       </div>
-    </header>
+    </div>
   );
 }
 
