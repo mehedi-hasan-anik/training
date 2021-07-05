@@ -3,6 +3,7 @@ import "./FullHomeArea.css";
 import Header from "../Header";
 import BannerArea from "../BannerArea";
 import AboutArea from "../AboutArea";
+import Action from "../Action";
 
 function index() {
   return (
@@ -10,6 +11,7 @@ function index() {
       <Header />
       <BannerArea />
       <AboutArea />
+      <Action />
     </div>
   );
 }
