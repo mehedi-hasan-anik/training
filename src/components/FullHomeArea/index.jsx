@@ -1,13 +1,15 @@
 import React from "react";
 import "./FullHomeArea.css";
 import Header from "../Header";
-import Test from "../Test";
+import BannerArea from "../BannerArea";
+import AboutArea from "../AboutArea";
 
 function index() {
   return (
     <div>
       <Header />
-      <Test />
+      <BannerArea />
+      <AboutArea />
     </div>
   );
 }
