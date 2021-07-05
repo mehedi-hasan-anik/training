@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "first training class",
+    "image": "https://i.ibb.co/ZNJSdyv/training-image-01.jpg",
+    "details": "Phasellus convallis mauris sed elementum vulputate. Donec posuere leo sed dui eleifend hendrerit. Sed suscipit suscipit erat, sed vehicula ligula. Aliquam ut sem fermentum sem tincidunt lacinia gravida aliquam nunc. Morbi quis erat imperdiet, molestie nunc ut, accumsan diam.",
+    "link": "VIEW SCHEDULE"
+  },
+  {
+    "id": 2,
+    "title": "second training class",
+    "image": "https://i.ibb.co/DrCx5gy/training-image-02.jpg",
+    "details": "Integer dapibus, est vel dapibus mattis, sem mauris luctus leo, ac pulvinar quam tortor a velit. Praesent ultrices erat ante, in ultricies augue ultricies faucibus. Nam tellus nibh, ullamcorper at mattis non, rhoncus sed massa. Cras quis pulvinar eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "link": "VIEW SCHEDULE"
+  },
+  {
+    "id": 3,
+    "title": "third training class",
+    "image": "https://i.ibb.co/LtHmd6S/training-image-04.jpg",
+    "details": "Fusce laoreet malesuada rhoncus. Donec ultricies diam tortor, id auctor neque posuere sit amet. Aliquam pharetra, augue vel cursus porta, nisi tortor vulputate sapien, id scelerisque felis magna id felis. Proin neque metus, pellentesque pharetra semper vel, accumsan a neque.",
+    "link": "VIEW SCHEDULE"
+  },
+  {
+    "id": 4,
+    "title": "fourth training class",
+    "image": "https://i.ibb.co/rfgxc2n/training-image-03.jpg",
+    "details": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean ultrices elementum odio ac tempus. Etiam eleifend orci lectus, eget venenatis ipsum commodo et.",
+    "link": "VIEW SCHEDULE"
+  }
+]

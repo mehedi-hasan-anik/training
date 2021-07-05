@@ -1,4 +1,4 @@
-#tabs ul {
+/* #tabs ul {
   margin: 0;
   padding: 0;
 }
@@ -25,6 +25,25 @@
 #tabs ul li a img {
   max-width: 100%;
   margin-right: 20px;
+}
+#tabs .main-rounded-button a {
+  text-align: center;
+  padding: 20px 30px;
+  width: 100%;
+  border-radius: 5px;
+  display: inline-block;
+  box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+  color: #fff;
+  font-size: 19px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  background-color: #ed563b;
+  text-decoration: none;
+} */
+
+#tabs ul {
+  margin: 0;
+  padding: 0;
 }
 #tabs .main-rounded-button a {
   text-align: center;
