@@ -25,7 +25,7 @@ hgroup {
   margin-top: 140px;
   margin-bottom: 80px;
 }
-.section-heading h2 {
+/* .section-heading h2 {
   font-size: 28px;
   font-weight: 800;
   color: #232d39;
@@ -40,7 +40,7 @@ hgroup {
 }
 .section-heading img {
   margin: 20px auto;
-}
+} */
 p {
   font-size: 14px;
   line-height: 25px;
@@ -61,9 +61,9 @@ li {
   margin: 0;
   list-style: none;
 }
-.feature-item {
+/* .feature-item {
   display: inline-block;
-  margin-bottom: 60px;
+  margin-bottom: 25px;
 }
 .feature-item .left-icon img {
   float: left;
@@ -94,4 +94,4 @@ li {
 }
 .feature-item .right-content p {
   text-align: left;
-}
+} */

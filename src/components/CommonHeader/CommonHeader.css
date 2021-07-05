@@ -1,0 +1,16 @@
+.commonHeading h2 {
+  font-size: 28px;
+  font-weight: 800;
+  color: #232d39;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.commonHeading h2 em {
+  font-style: normal;
+  color: #ed563b;
+}
+.commonHeading img {
+  margin: 20px auto;
+}
