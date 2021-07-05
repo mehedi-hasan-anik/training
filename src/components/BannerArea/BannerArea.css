@@ -59,3 +59,7 @@
   transition: all 0.3s;
   text-decoration: none;
 }
+.main-button a:hover {
+  color: white;
+  background: #882f1f;
+}
