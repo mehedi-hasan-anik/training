@@ -7,7 +7,7 @@ function ClassPhoto() {
   return (
     <div className="tabs-content">
       {photoItems.map((item) => (
-        <article id="tabs-1" key={item.id}>
+        <article key={item.id}>
           <img src={item.image} alt="First className" />
           <h4>{item.title}</h4>
           <p>{item.details} </p>
