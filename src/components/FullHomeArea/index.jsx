@@ -5,6 +5,7 @@ import BannerArea from "../BannerArea";
 import AboutArea from "../AboutArea";
 import Action from "../Action";
 import Classes from "../Classes";
+import FakeSection from "../FakeSection";
 
 function index() {
   return (
@@ -14,6 +15,7 @@ function index() {
       <AboutArea />
       <Action />
       <Classes />
+      <FakeSection />
     </div>
   );
 }

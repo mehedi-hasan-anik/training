@@ -21,10 +21,10 @@ function Header() {
                   <a href="#features">About</a>
                 </li>
                 <li className="scroll-to-section">
-                  <a href="#our-classNamees">classNamees</a>
+                  <a href="#classes">classes</a>
                 </li>
                 <li className="scroll-to-section">
-                  <a href="#schedule">Schedules</a>
+                  <a href="#product">Product</a>
                 </li>
                 <li className="scroll-to-section">
                   <a href="#contact-us">Contact</a>

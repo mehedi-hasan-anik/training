@@ -8,7 +8,7 @@ import ClassPhoto from "../ClassPhoto";
 
 function Classes() {
   return (
-    <section className="section" id="our-classNamees">
+    <div className="our-classes" id="classes">
       <div className="container">
         <div className="row">
           <div className="col-lg-6 offset-lg-3">
@@ -52,7 +52,7 @@ function Classes() {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 

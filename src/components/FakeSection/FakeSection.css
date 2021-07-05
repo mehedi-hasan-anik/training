@@ -1,0 +1,24 @@
+.fake-section {
+  background: #232b36;
+  margin-top: 100px;
+  padding: 10px;
+}
+.fake-section-image {
+}
+.fake-section-image img {
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+}
+.fake-section-text h4 {
+  color: #ed563b;
+  margin: 15px 0px;
+}
+.fake-section-text p {
+  margin: 10px 0px;
+  color: white;
+}
+.price {
+  font-size: 20px;
+  margin: 10px 0px;
+}
