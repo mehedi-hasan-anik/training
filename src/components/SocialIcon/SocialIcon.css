@@ -1,0 +1,15 @@
+.social-icons {
+  margin: 0;
+  padding: 0;
+}
+.social-icons li {
+  display: inline-block;
+  margin-right: 12px;
+}
+.social-icons li a {
+  color: #232d39;
+  transition: all 0.3s;
+}
+.social-icons li a:hover {
+  color: #f9735b;
+}

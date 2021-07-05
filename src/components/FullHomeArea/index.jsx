@@ -6,6 +6,7 @@ import AboutArea from "../AboutArea";
 import Action from "../Action";
 import Classes from "../Classes";
 import FakeSection from "../FakeSection";
+import Trainers from "../Trainers";
 
 function index() {
   return (
@@ -16,6 +17,7 @@ function index() {
       <Action />
       <Classes />
       <FakeSection />
+      <Trainers />
     </div>
   );
 }
