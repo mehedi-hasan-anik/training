@@ -14,7 +14,7 @@ function SingleProduct() {
       });
   }, []);
 
-  const found = products.find(
+  const selectedProduct = products.find(
     (Element) => Element.id.toString() === singleId.toString()
   );
 
@@ -22,15 +22,21 @@ function SingleProduct() {
     <div className="single-product">
       <div className="container">
         <div>
-          {found && (
+          {selectedProduct ? (
             <div>
               <div className="single-product-image">
-                <img src={found.image} className="img-fluid" alt="" />
+                <img src={selectedProduct.image} className="img-fluid" alt="" />
               </div>
               <div className="single-product-text">
-                <h4>{found.title}</h4>
-                <p>$ {found.price}</p>
-                <p>{found.description}</p>
+                <h4>{selectedProduct.title}</h4>
+                <p>$ {selectedProduct.price}</p>
+                <p>{selectedProduct.description}</p>
+              </div>
+            </div>
+          ) : (
+            <div style={{ width: "100px", margin: "0 auto" }}>
+              <div className="spinner-border text-info" role="status">
+                <span className="visually-hidden"></span>
               </div>
             </div>
           )}
