@@ -1,9 +1,16 @@
 import React, { useEffect, useState } from "react";
 import "./FakeSection.css";
+import { useHistory } from "react-router";
 
 function FakeSection() {
   const [fakeData, setFakeData] = useState([]);
   const [loading, setLoading] = useState(false);
+  const history = useHistory();
+
+  const Handeler = (id) => {
+    const url = `/product/${id}`;
+    history.push(url);
+  };
 
   useEffect(() => {
     fetch(`https://fakestoreapi.com/products`)
@@ -20,7 +27,11 @@ function FakeSection() {
         {loading ? (
           <div className="row">
             {fakeData.map((item) => (
-              <div key={item.id} className="col-md-3 p-4">
+              <div
+                key={item.id}
+                className="col-md-3 p-4"
+                onClick={() => Handeler(item.id)}
+              >
                 <div>
                   <div className="fake-section-image">
                     <img src={item.image} className="img-fluid" alt="" />
@@ -36,8 +47,8 @@ function FakeSection() {
           </div>
         ) : (
           <div style={{ width: "100px", margin: "0 auto" }}>
-            <div class="spinner-border text-info" role="status">
-              <span class="visually-hidden"></span>
+            <div className="spinner-border text-info" role="status">
+              <span className="visually-hidden"></span>
             </div>
           </div>
         )}

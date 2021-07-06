@@ -3,7 +3,8 @@ import { userContext } from "../../App";
 import "./ClassPhoto.css";
 
 function ClassPhoto() {
-  const [photoItems, setPhotoItems] = useContext(userContext);
+  const [photoItems, setPhotoItems, fakeData, setFakeData] =
+    useContext(userContext);
   return (
     <div className="tabs-content">
       {photoItems.map((item) => (
