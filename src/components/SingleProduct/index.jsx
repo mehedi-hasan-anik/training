@@ -34,7 +34,7 @@ function SingleProduct() {
               </div>
             </div>
           ) : (
-            <div style={{ width: "100px", margin: "0 auto" }}>
+            <div className="spin-area">
               <div className="spinner-border text-info" role="status">
                 <span className="visually-hidden"></span>
               </div>
