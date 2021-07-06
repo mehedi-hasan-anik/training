@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import "./SingleProduct.css";
+import Loading from "../Loading";
 
 function SingleProduct() {
   const [products, setProducts] = useState([]);
@@ -34,11 +35,7 @@ function SingleProduct() {
               </div>
             </div>
           ) : (
-            <div className="spin-area">
-              <div className="spinner-border text-info" role="status">
-                <span className="visually-hidden"></span>
-              </div>
-            </div>
+            <Loading />
           )}
         </div>
       </div>

@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import "./FakeSection.css";
 import { useHistory } from "react-router";
+import Loading from "../Loading";
 
 function FakeSection() {
   const [fakeData, setFakeData] = useState([]);
-  const [loading, setLoading] = useState(false);
   const history = useHistory();
 
   const Handeler = (id) => {
@@ -17,14 +17,13 @@ function FakeSection() {
       .then((res) => res.json())
       .then((data) => {
         setFakeData(data.slice(0, 8));
-        setLoading(true);
       });
   }, []);
 
   return (
     <div className="fake-section" id="product">
       <div className="container">
-        {loading ? (
+        {fakeData.length ? (
           <div className="row">
             {fakeData.map((item) => (
               <div
@@ -46,11 +45,7 @@ function FakeSection() {
             ))}
           </div>
         ) : (
-          <div style={{ width: "100px", margin: "0 auto" }}>
-            <div className="spinner-border text-info" role="status">
-              <span className="visually-hidden"></span>
-            </div>
-          </div>
+          <Loading />
         )}
       </div>
     </div>
