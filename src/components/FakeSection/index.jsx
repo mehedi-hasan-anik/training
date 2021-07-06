@@ -30,16 +30,16 @@ function FakeSection() {
               <div
                 key={item.id}
                 className="col-md-3 p-4"
-                onClick={() => Handeler(item.id)}
+                onClick={() => Handeler(item?.id)}
               >
                 <div>
                   <div className="fake-section-image">
-                    <img src={item.image} className="img-fluid" alt="" />
+                    <img src={item?.image} className="img-fluid" alt="" />
                   </div>
                   <div className="fake-section-text">
-                    <h4>{item.title}</h4>
+                    <h4>{item?.title}</h4>
                     <p className="price">$ {item.price}</p>
-                    <p>{item.description}</p>
+                    <p>{item?.description}</p>
                   </div>
                 </div>
               </div>
