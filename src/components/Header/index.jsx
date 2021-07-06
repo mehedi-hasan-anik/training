@@ -6,10 +6,10 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 function Header() {
   return (
     <div className="header-area header-sticky">
-      <div className="container">
+      <div className="">
         <div className="row">
           <div className="col-12">
-            <nav className="navbar navbar-expand-lg   container">
+            <nav className="navbar navbar-expand-lg">
               <div className="container-fluid nav-full-area">
                 <a className="navbar-brand" href="/">
                   Training<em> Studio</em>

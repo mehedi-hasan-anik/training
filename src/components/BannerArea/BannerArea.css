@@ -63,3 +63,16 @@
   color: white;
   background: #882f1f;
 }
+
+/*responsive*/
+@media only screen and (max-width: 1200px) {
+  .main-banner .caption h2 {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+}

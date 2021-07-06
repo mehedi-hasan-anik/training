@@ -38,7 +38,7 @@ function FakeSection() {
                 {fakeData.map((item) => (
                   <div
                     key={item.id}
-                    className="col-md-3 p-4"
+                    className="col-md-4 col-lg-3 col-sm-6 p-4"
                     onClick={() => Handeler(item?.id)}
                   >
                     <div>
