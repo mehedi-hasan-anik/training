@@ -1,7 +1,7 @@
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import "./Header.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
   return (
@@ -47,12 +47,12 @@ function Header() {
                         CLASSES
                       </a>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                       <a href="#product" className="nav-link ms-3">
                         {" "}
                         PRODUCT
                       </a>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
                       <a href="#contact" className="nav-link ms-3">
                         CONTACT
