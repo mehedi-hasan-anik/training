@@ -1,14 +1,13 @@
 import React from "react";
-import "./FullHomeArea.css";
-import Header from "../Header";
-import BannerArea from "../BannerArea";
 import AboutArea from "../AboutArea";
 import Action from "../Action";
+import BannerArea from "../BannerArea";
 import Classes from "../Classes";
-import FakeSection from "../FakeSection";
-import Trainers from "../Trainers";
 import Contact from "../Contact";
 import Footer from "../Footer";
+import Header from "../Header";
+import Trainers from "../Trainers";
+import "./FullHomeArea.css";
 
 function index() {
   return (
@@ -18,7 +17,7 @@ function index() {
       <AboutArea />
       <Action />
       <Classes />
-      <FakeSection />
+      {/* <FakeSection /> */}
       <Trainers />
       <Contact />
       <Footer />

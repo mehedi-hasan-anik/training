@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import "./FakeSection.css";
 import { useHistory } from "react-router";
 import Loading from "../Loading";
+import "./FakeSection.css";
 
 function FakeSection() {
   const [fakeData, setFakeData] = useState([]);
